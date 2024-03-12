@@ -1,0 +1,161 @@
+/* FONTS BELOW  */
+/* .staatliches-regular {
+    font-family: "Staatliches", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  } */
+
+
+/*   -------------------------------------------WHOLE WEBPAGE--------------------------------------------- */
+
+
+
+/*----------------------------------------------WEBSITE TITLE-----------------------------------------------------------*/
+
+header {
+    margin-top: 100px;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Staatliches", sans-serif;
+    font-weight: 400;
+    margin-bottom: 100px;
+}
+
+/* h1:hover {
+    text-align: center;
+    font-family: "Staatliches", sans-serif;
+    font-weight: 400;
+    margin-bottom: 100px;
+} */
+
+/*   -------------------------------------------------NAVIGATION BAR--------------------------------------------------- */
+
+.navbar ul {
+    list-style-type: none;
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    /* position: fixed; */
+    top: 0;
+    width: 100%;
+}
+
+
+.navbar a{
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    font-family: "Staatliches", sans-serif;
+    font-weight: 400;
+
+}
+
+.navbar a:hover {
+color: white;
+background-color: black;
+
+}
+
+.navbar li {
+    float: left;
+}
+
+/*   -------------------------------------------------FLEXBOX PROPERTIES--------------------------------------------------- */
+
+/* .mainflex-container {
+    display: flex;
+    justify-content:center;
+    max-height: 2500px;
+    margin: 100px;
+}
+
+.flexboxleft-side {
+width: 450px;
+background-color: aqua;
+display: flex;
+flex-direction: column; 
+align-items: flex-end;
+margin: 0px;
+}
+
+.flexboxright-side {
+    width: 450px;
+    background-color: magenta;
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+    margin: 0px;
+}
+
+
+.flexbox-item {
+    position: relative;
+    width: 450px;
+    height: 450px;
+    overflow: hidden;
+    display: block;
+} */
+
+.flexcontainer2 {
+    display: flex;
+    justify-content:center;
+    max-height: 2500px;
+    margin: 100px;
+
+}
+
+.flexboxitem {
+    position: relative;
+    width: 500px;
+    height: 1000px;
+    overflow: hidden;
+    display: block;
+
+}
+
+.flexboxA {
+    width: 800px;
+    /* background-color: magenta; */
+    display: flex;
+    flex-direction: start;
+    margin: 15px;
+}
+
+
+.flexboxA .maintitle {
+    font-size: 100px;
+    flex-direction: start;
+    margin-top: 50px;
+}
+
+.maintitle {
+    font-family: "Staatliches", sans-serif;
+    line-height: 200px;
+}
+
+.flexboxB {
+    width: 700px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+    margin: 15px;
+    
+}
+
+.flexboxB .text {
+    font-size: 20px;
+    flex-direction: start;
+    margin-top: 100px;
+}
+
+
+.mainimage {
+  text-align: center;
+}
+       

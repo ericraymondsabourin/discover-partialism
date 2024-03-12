@@ -1,0 +1,229 @@
+/* FONTS BELOW  */
+/* .staatliches-regular {
+    font-family: "Staatliches", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  } */
+
+
+/*   -------------------------------------------WHOLE WEBPAGE--------------------------------------------- */
+
+
+
+/*----------------------------------------------WEBSITE TITLE-----------------------------------------------------------*/
+
+header {
+    margin-top: 100px;
+    text-align:center;
+    align-items: center;
+}
+
+h1 {
+    font-family: "Staatliches", sans-serif;
+    font-weight: 400;
+    margin-bottom: 100px;
+    width: 700px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+  
+}
+
+/* h1:hover {
+    text-align: center;
+    font-family: "Staatliches", sans-serif;
+    font-weight: 400;
+    margin-bottom: 100px;
+} */
+
+/*   -------------------------------------------------NAVIGATION BAR--------------------------------------------------- */
+
+.navbar ul {
+    list-style-type: none;
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    /* position: fixed; */
+    top: 0;
+    width: 100%;
+}
+
+
+.navbar a{
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    font-family: "Staatliches", sans-serif;
+    font-weight: 400;
+
+}
+
+.navbar a:hover {
+color: white;
+background-color: black;
+
+}
+
+.navbar li {
+    float: left;
+}
+
+/*   -------------------------------------------------FLEXBOX PROPERTIES--------------------------------------------------- */
+
+.mainflex-container {
+    display: flex;
+    justify-content:center;
+    max-height: 2500px;
+    margin: 100px;
+}
+
+.flexboxleft-side {
+width: 450px;
+background-color: aqua;
+display: flex;
+flex-direction: column; 
+align-items: flex-end;
+margin: 0px;
+}
+
+.flexboxright-side {
+    width: 450px;
+    background-color: magenta;
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+    margin: 0px;
+}
+
+
+.flexbox-item {
+    position: relative;
+    width: 450px;
+    height: 450px;
+    overflow: hidden;
+    display: block;
+}
+
+/*   -------------------------------------------------IMAGE 01--------------------------------------------------- */
+.flexbox-item1 {
+    background-color: yellow;
+}
+
+.flexbox-item1 .img1 {
+    opacity: 100%;
+}
+
+.flexbox-item1 .img2 {
+    opacity: 100%;
+    position: absolute;
+}
+
+.img1:hover {
+opacity: 0%;
+position: absolute;
+}
+
+/*   -------------------------------------------------IMAGE 02--------------------------------------------------- */
+
+.flexbox-item2 {
+    background-color: yellow;
+}
+
+.flexbox-item2 .img3 {
+    opacity: 100%;
+}
+
+.flexbox-item2 .img4 {
+    opacity: 100%;
+    position: absolute;
+}
+
+.img3:hover {
+opacity: 0%;
+position: absolute;
+}
+
+/*   -------------------------------------------------IMAGE 03--------------------------------------------------- */
+
+.flexbox-item3 {
+    background-color: yellow;
+}
+
+.flexbox-item3 .img5 {
+    opacity: 100%;
+}
+
+.flexbox-item3 .img6 {
+    opacity: 100%;
+    position: absolute;
+}
+
+.img5:hover {
+opacity: 0%;
+position: absolute;
+}
+
+/*   -------------------------------------------------IMAGE 03--------------------------------------------------- */
+
+.flexbox-item3 {
+    background-color: yellow;
+}
+
+.flexbox-item3 .img5 {
+    opacity: 100%;
+}
+
+.flexbox-item3 .img6 {
+    opacity: 100%;
+    position: absolute;
+}
+
+.img5:hover {
+opacity: 0%;
+position: absolute;
+}
+
+/*   -------------------------------------------------IMAGE 04--------------------------------------------------- */
+
+.flexbox-item4 {
+    background-color: pink;
+}
+
+
+.flexbox-item4 .img7 {
+    opacity: 100%;
+}
+
+.flexbox-item3 .img8 {
+    opacity: 100%;
+    position: absolute;
+}
+
+.img7:hover {
+opacity: 0%;
+position: absolute;
+}
+
+/*   -------------------------------------------------IMAGE 05--------------------------------------------------- */
+
+.flexbox-item5 {
+    background-color: yellow;
+} 
+
+
+.flexbox-item4 .img9 {
+    opacity: 100%;
+}
+
+.flexbox-item3 .img10 {
+    opacity: 100%;
+    position: absolute;
+}
+
+.img9:hover {
+opacity: 0%;
+position: absolute;
+}
